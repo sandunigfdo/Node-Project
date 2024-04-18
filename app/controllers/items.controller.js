@@ -1,6 +1,6 @@
 const Item = require("../models/items.model");
  
-// TODO: complete the code as per the instructions given README.md
+
 exports.create = (req, res) => {
     // Validate request
     // Bad request
