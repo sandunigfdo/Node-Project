@@ -1,7 +1,5 @@
 module.exports = app => {
-  const items = require("../controllers/items.controller");
-
-  // TODO: complete the code as per the instructions given README.md
+  const items = require("../controllers/items.controller"); 
 
   //   Create a new Item
   app.post("/items", items.create);
