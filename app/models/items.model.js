@@ -1,7 +1,5 @@
 const db = require("./db");
 
-// TODO: complete the code as per the instructions given README.md
-
 // Define the constructor function for the item model
 const Item = function(item) {
     this.itemname = item.itemname;
